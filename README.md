@@ -1,5 +1,10 @@
 # 登山GPSログデータの分析 〜富士山と比良山地・武奈ヶ岳の登山行動の比較〜
-目的：
+
+出力したグラフは、GPX_analysis/GPX_analysis/Graphs/にあります。
+分析に使用したGPXファイルは、GPX_analysis/GPX_analysis/GPX/にあります。
+今回の分析を元にしてまとめたレポートは、GPX_analysis/repots/にあります。
+
+不十分なところもあると思いますが、RでGPXを分析するための参考になれば幸いです。
 
 ### 行動時間と非行動時間の割合
 
@@ -35,10 +40,5 @@
 
 #### 比良の勾配と垂直速度
 
+## 結果
 
-# GPX_analysis
-I would like to analyse GPX datas by R. 
-And I also would like to compare two GPX files.
-Making graphs by ggplot2.
-
-### Elapsed time and relative altitude

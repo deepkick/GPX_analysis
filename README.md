@@ -1,8 +1,8 @@
 # 登山GPSログデータの分析 〜富士山と比良山地・武奈ヶ岳の登山行動の比較〜
 
 出力したグラフは、GPX_analysis/GPX_analysis/Graphs/にあります。  
-分析に使用したGPXファイルは、GPX_analysis/GPX_analysis/GPX/にあります。
-今回の分析を元にしてまとめたレポートは、GPX_analysis/repots/にあります。
+分析に使用したGPXファイルは、GPX_analysis/GPX_analysis/GPX/にあります。  
+今回の分析を元にしてまとめたレポートは、GPX_analysis/repots/にあります。  
 
 不十分なところもあると思いますが、RでGPXを分析するための参考になれば幸いです。
 

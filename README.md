@@ -33,7 +33,9 @@
   - 比良の勾配と垂直速度  
 
 出力したグラフは、GPX_analysis/GPX_analysis/Graphs/にあります。  
-![経過時間と相対高度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/01a_経過時間と相対高度.png)
+
+![経過時間と相対高度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/01a_経過時間と相対高度.png)  
+
 今回のRによるGPXデータの分析について考察したレポートは、GPX_analysis/repots/にあります。  
 このような分析をWeb上で手軽に出力できる方法を現在、考え中です。  
 

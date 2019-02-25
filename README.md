@@ -3,7 +3,10 @@
 登山アプリ SkyWalking（http://deepkick.com/skywalking/ ）で取得したGPSログから作成したGPXファイルを、Rで分析し、グラフを作成するスクリプトを公開しました。  
 ２つのGPXファイルを同じグラフに描画して比較する、といったことができます。
 
-例として、分析に使用したGPXファイルは、GPX_analysis/GPX_analysis/GPX/にあります。  
+例として、分析に使用したGPXファイルは、
+https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX
+にあります。  
+
 - 分析に使用したGPXファイル
   - 20180829_Fujisan_elevation_correction.gpx
   - 20181111_Bunagatake_elevation_correction.gpx

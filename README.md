@@ -14,7 +14,9 @@ https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX
 前者は2018年8月29日〜30日に渡って行った富士山登山のデータ（富士山・須走ルート）です。
 後者は2018年11月11日に行った比良山系・武奈ヶ岳のデータ（比良山地・武奈ヶ岳への登山ルート）です。
 
-メインのRスクリプトは、GPX_analysis/gpx_analytics01.R になります。  
+メインのRスクリプトは、  
+https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/gpx_analytics01.R  
+にあります。  
 以下のような２つのGPXデータの比較を行い、ggplot2 でグラフを作成しています。 
 
 - 行動時間と非行動時間の割合

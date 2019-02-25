@@ -1,17 +1,20 @@
-#Rによる登山GPSログデータの分析  
-##〜富士山と比良山地・武奈ヶ岳の登山行動の比較〜  
+# Rによる登山GPSログデータの分析 〜富士山と比良山地・武奈ヶ岳の登山行動の比較〜  
 
 登山アプリ SkyWalking（http://deepkick.com/skywalking/ ）で取得したGPSログから作成したGPXファイルを、Rで分析し、グラフを作成するスクリプトを公開しました。  
+２つのGPXファイルを同じグラフに描画して比較する、といったことができます。
 
 例として、分析に使用したGPXファイルは、GPX_analysis/GPX_analysis/GPX/にあります。  
 - 20180829_Fujisan_elevation_correction.gpx
 - 20181111_Bunagatake_elevation_correction.gpx
 
+前者は2018年8月29日〜30日に渡って行った富士山登山のデータです。
+後者は2018年11月11日に行った比良山系・武奈ヶ岳のデータです。
+
 出力したグラフは、GPX_analysis/GPX_analysis/Graphs/にあります。  
 
 今回の分析を元にしてまとめたレポートは、GPX_analysis/repots/にあります。  
 
-不十分なところもあると思いますが、RでGPXを分析するための参考になれば幸いです。
+RでGPXを分析するための参考になれば幸いです。
 
 ### 行動時間と非行動時間の割合
 

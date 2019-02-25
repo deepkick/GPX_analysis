@@ -7,13 +7,16 @@
 https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX
 にあります。  
 
+## 使用したGPSログデータ
 - 分析に使用したGPXファイル
   - [20180829_Fujisan_elevation_correction.gpx](https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX/20180829_Fujisan_elevation_correction.gpx)
   - [20181111_Bunagatake_elevation_correction.gpx](https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX/20181111_Bunagatake_elevation_correction.gpx) 
 
 前者は2018年8月29日〜30日に渡って行った富士山登山のデータ（富士山・須走ルート）です。
 後者は2018年11月11日に行った比良山系・武奈ヶ岳のデータ（比良山地・武奈ヶ岳への登山ルート）です。
+  
 
+## Rスクリプト
 メインのRスクリプトは、  
 https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/gpx_analytics01.R  
 にあります。  
@@ -37,6 +40,7 @@ https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/gpx_analytics0
   - 富士山の勾配と垂直速度の分布
   - 比良の勾配と垂直速度  
 
+## データの可視化と比較
 出力したグラフは、https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/Graphs にあります。  
 
 例えば、以下に示すようなグラフが作成できます。  

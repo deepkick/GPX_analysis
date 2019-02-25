@@ -4,8 +4,9 @@
 ２つのGPXファイルを同じグラフに描画して比較する、といったことができます。
 
 例として、分析に使用したGPXファイルは、GPX_analysis/GPX_analysis/GPX/にあります。  
-- 20180829_Fujisan_elevation_correction.gpx
-- 20181111_Bunagatake_elevation_correction.gpx
+- 分析に使用したGPXファイル
+  - 20180829_Fujisan_elevation_correction.gpx
+  - 20181111_Bunagatake_elevation_correction.gpx
 
 前者は2018年8月29日〜30日に渡って行った富士山登山のデータ（富士山・須走ルート）です。
 後者は2018年11月11日に行った比良山系・武奈ヶ岳のデータ（比良山地・武奈ヶ岳への登山ルート）です。

@@ -8,8 +8,8 @@ https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX
 にあります。  
 
 - 分析に使用したGPXファイル
-  - 20180829_Fujisan_elevation_correction.gpx
-  - 20181111_Bunagatake_elevation_correction.gpx
+  - [20180829_Fujisan_elevation_correction.gpx](https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX/20180829_Fujisan_elevation_correction.gpx)
+  - [20181111_Bunagatake_elevation_correction.gpx](https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX/20181111_Bunagatake_elevation_correction.gpx) 
 
 前者は2018年8月29日〜30日に渡って行った富士山登山のデータ（富士山・須走ルート）です。
 後者は2018年11月11日に行った比良山系・武奈ヶ岳のデータ（比良山地・武奈ヶ岳への登山ルート）です。
@@ -35,7 +35,7 @@ https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX
   - 富士山の勾配と垂直速度の分布
   - 比良の勾配と垂直速度  
 
-出力したグラフは、GPX_analysis/GPX_analysis/Graphs/にあります。  
+出力したグラフは、https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/Graphs にあります。  
 
 ![経過時間と相対高度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/01a_経過時間と相対高度.png)  
 

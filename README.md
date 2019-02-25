@@ -56,3 +56,25 @@ https://github.com/deepkick/GPX_analysis/blob/master/report/Seibutsuken_report_h
 
 RでGPXを分析するための参考になれば幸いです。
 
+## 参考文献・資料  
+- フィールド情報学入門 : 自然観察, 社会参加, イノベーションのための情報学 / 京都大学フィールド情報学研究会編. -- 共立出版, 2009.  
+
+- 地理空間データ分析 / 谷村晋著. -- 共立出版, 2010. -- (Rで学ぶデータサイエンス / 金明哲編集 ; 7).  
+
+- 登山活動のGPSログ解析  
+	http://yamakei.hatenadiary.jp/entry/2015/05/07/074113  
+
+- 登山用ＧＰＳログ分析ツール　
+	http://www.ne.jp/asahi/nature/kuro/HGPS/gps_log_analyze.htm  
+
+- 急性高山病とは - 日本登山医学会　
+	http://www.jsmmed.org/info/pg51.html  
+
+- 富士登山 - ヤマレコの個人ページ　
+	https://www.yamareco.com/modules/yamareco/detail-1572851.html  
+
+- 武奈ヶ岳登山 - ヤマレコの個人ページ　
+	https://www.yamareco.com/modules/yamareco/detail-1647671.html  
+
+- オフラインマップ対応登山用GPSロギングiOSアプリ：SkyWalking　オフィシャルサイト  
+	http://deepkick.com/skywalking/  

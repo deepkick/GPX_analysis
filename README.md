@@ -47,9 +47,9 @@ https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX
 ![富士山の勾配と垂直速度の散布図](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/04a_富士山の勾配と垂直速度の散布図.png)  
 ![比良の勾配と垂直速度の散布図](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/04a_比良の勾配と垂直速度の散布図.png)  
 
-今回のRによるGPXデータの分析について考察したレポートは、
-https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/repots  
-にあります。  
+今回のRによるGPXデータの分析について考察したレポートは、  
+https://github.com/deepkick/GPX_analysis/blob/master/report/Seibutsuken_report_honda.pdf  
+にあります。（約50Mbあります）  
 このような分析をWeb上で手軽に出力できる方法を現在、考え中です。  
 
 RでGPXを分析するための参考になれば幸いです。

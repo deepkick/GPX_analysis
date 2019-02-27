@@ -20,7 +20,8 @@ GPX_B <- "GPX/20181111_Bunagatake_elevation_correction.gpx"
 # </gpx>
 
 
-# Mac環境の文字化け防止に、フォントファミリーを指定
+# Mac環境の文字化け防止に、フォントファミリーを指定。
+# Mojave だとなぜか文字化けします。
 # Mac以外の場合は、適当に変更してください。
 par(family="HiraKakuProN-W3")  # ヒラギノ角ゴシックProN W
 
@@ -35,7 +36,7 @@ library("trackeR")
 library("plyr")
 
 # 富士山・須走ルート
-Fujisan_01 <- readGPX(file = "GPX/20180829_Fujisan_elevation_correction.gpx", timezone = "UTC")
+Fujisan_01 <- readGPX(file = GPX_A, timezone = "UTC")
 # type列を結合
 df_type_Fuji <- data.frame(
   type = rep('Fuji', length(Fujisan_01$time))
@@ -46,7 +47,7 @@ Fujisan_01 <- cbind(Fujisan_01, df_type_Fuji)
 str(Fujisan_01)
 
 # 比良山地・武奈ヶ岳
-Hira_01 <- readGPX(file = "GPX/20181111_Bunagatake_elevation_correction.gpx", timezone = "UTC")
+Hira_01 <- readGPX(file = GPX_B, timezone = "UTC")
 # type列を結合
 df_type_Hira <- data.frame(
   type = rep('Hira', length(Hira_01$time))

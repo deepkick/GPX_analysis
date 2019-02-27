@@ -1,4 +1,31 @@
+# 比較するGPXのパスの設定
+# ここでは相対パスで"GPX/20180829_Fujisan_elevation_correction.gpx"と、
+# "GPX/20181111_Bunagatake_elevation_correction.gpx" を指定しています。
+# 任意のパスに変更してください。
+GPX_A <- "GPX/20180829_Fujisan_elevation_correction.gpx"
+GPX_B <- "GPX/20181111_Bunagatake_elevation_correction.gpx"
+
+# GPXは、以下のフォーマットになっていることを基本としています。
+# <?xml version="1.0" encoding="UTF-8"?>
+# <gpx .... 省略 ....>
+#   <trk>
+#     <trkseg>
+#       <trkpt lat="35.366217" lon="138.778449">
+#         <ele>1968.000000</ele>
+#         <time>2018-08-29T11:09:32Z</time>
+#       </trkpt>
+#       ....以下<trkseg> </trkseg> を繰り返し....
+#     </trkseg>
+#   </trk>
+# </gpx>
+
+
+# Mac環境の文字化け防止に、フォントファミリーを指定
+# Mac以外の場合は、適当に変更してください。
 par(family="HiraKakuProN-W3")  # ヒラギノ角ゴシックProN W
+
+# 勾配（100ｍ進んで10ｍ登ると10％）のグルーピングの定義
+split_slope_c <- c(-90, -80, -70, -60, -50, -40, -30, -20, -10, 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 
 library(ggplot2)
 library(ggsci)
@@ -6,11 +33,6 @@ library(scales)
 library(reshape2)
 library("trackeR")
 library("plyr")
-
-#library(tidyverse)
-
-# 勾配（100ｍ進んで10ｍ登ると10％）のグルーピング
-split_slope_c <- c(-90, -80, -70, -60, -50, -40, -30, -20, -10, 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
 
 # 富士山・須走ルート
 Fujisan_01 <- readGPX(file = "GPX/20180829_Fujisan_elevation_correction.gpx", timezone = "UTC")

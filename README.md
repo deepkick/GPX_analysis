@@ -1,7 +1,8 @@
 # Rによる登山GPSログデータの分析 〜富士山と比良山地・武奈ヶ岳の登山行動の比較〜  
 
-登山アプリ SkyWalking（http://deepkick.com/skywalking/ ）で取得したGPSログから作成したGPXファイルを、Rで分析し、グラフを作成するスクリプトを公開しました。  
+登山アプリ SkyWalking（http://deepkick.com/skywalking/ ）で取得したGPSログから作成したGPXファイルを、Rで分析し、２つの異なる登山行動を分析した結果を可視化するグラフを作成するスクリプトを公開しました。  
 ２つのGPXファイルを同じグラフに描画して比較する、といったことができます。
+Rが使える方は、GPXデータの分析にご利用ください。
 
 例として、分析に使用したGPXファイルは、
 https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/GPX

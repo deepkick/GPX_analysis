@@ -45,14 +45,14 @@ https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/gpx_analytics0
 出力したグラフは、https://github.com/deepkick/GPX_analysis/tree/master/GPX_analysis/Graphs にあります。  
 
 例えば、以下に示すようなグラフが作成できます。  
-![経過時間と相対高度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/01a_経過時間と相対高度.png)  
-![水平移動距離と相対高度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/01b_水平移動距離と相対高度.png)  
-![経過時間と標高](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/02a_経過時間と標高.png)  
-![水平移動距離と標高](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/02b_水平移動距離と標高.png)  
-![勾配と平均垂直速度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/04a_勾配と平均垂直速度.png)  
-![勾配と平均水平速度](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/04b_勾配と平均水平速度.png)  
-![富士山の勾配と垂直速度の散布図](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/04a_富士山の勾配と垂直速度の散布図.png)  
-![比良の勾配と垂直速度の散布図](https://github.com/deepkick/GPX_analysis/blob/master/GPX_analysis/Graphs/04a_比良の勾配と垂直速度の散布図.png)  
+![経過時間と相対高度](./Graphs/01a_経過時間と相対高度.png)  
+![水平移動距離と相対高度](./Graphs/01b_水平移動距離と相対高度.png)  
+![経過時間と標高](./Graphs/02a_経過時間と標高.png)  
+![水平移動距離と標高](./Graphs/02b_水平移動距離と標高.png)  
+![勾配と平均垂直速度](./Graphs/04a_勾配と平均垂直速度.png)  
+![勾配と平均水平速度](./Graphs/04b_勾配と平均水平速度.png)  
+![富士山の勾配と垂直速度の散布図](./Graphs/04a_富士山の勾配と垂直速度の散布図.png)  
+![比良の勾配と垂直速度の散布図](./Graphs/04a_比良の勾配と垂直速度の散布図.png)  
 
 今回のRによるGPXデータの分析について考察したレポートは、  
 https://github.com/deepkick/GPX_analysis/blob/master/report/Seibutsuken_report_honda.pdf  
